@@ -1,0 +1,52 @@
+
+
+<p>
+  <strong>Name:</strong>
+  <%= @add.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @add.description %>
+</p>
+
+<p>
+  <strong>Date add:</strong>
+  <%= @add.date_add %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @add.price %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @drek.name %>
+</p>
+<p>
+  <strong>Surname:</strong>
+  <%= @drek.surname %>
+</p>
+<p>
+  <strong>Phone:</strong>
+  <%= @drek.phone %>
+</p>
+<p>
+  <strong>Img:</strong>
+ 
+  <%= image_tag(@add.img_url, :width => 300) if @add.img.present? %>
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+<%= link_to 'Back', adds_path %>
