@@ -1,3 +1,4 @@
 # Kurbadelizaj 
 # IdiUPizdo 
 # upickomater 
+# Umri 
